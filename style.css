@@ -1,0 +1,48 @@
+body {
+    text-align:center;
+    background-color:lightsteelblue;
+    font-family: 'Tai Heritage Pro', serif;
+}
+
+
+div {
+  
+    height: 100px;
+    width: 10%;
+    border-radius: 20%;
+    border:solid 5px;
+    
+    display:inline-block;
+    
+  }
+  .red {
+    background-color: red;
+    position:absolute;
+    
+    left:38.9%;;
+
+  }
+  .blue {
+    background-color: blue;
+    position:absolute;
+    
+    right:38.9%;
+  }
+  .green {
+    background-color: green;
+    
+    position:absolute;
+    top:250px;
+    left:38.9%;
+  }
+  .yellow {
+    background-color: yellow;
+    margin-left:100px;
+    position:absolute;
+    
+    top:250px;
+    right:38.9%;
+  }
+  .game-over{
+    background-color:red;
+  }
